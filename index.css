@@ -1,0 +1,85 @@
+body {
+    background-color: black;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: MyFont;
+    
+}
+
+@font-face {
+    font-family: "MyFont";
+    src: url(./ressources/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.background2 {
+    background-color: hsl(0, 0%, 8%);
+    width: 340px;
+    height: 480px;
+    padding-top: 40px;
+    border-radius: 10px;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    border-radius: 90px;
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: MyFont;
+    font-weight: 500;
+    margin-bottom: 5px;
+    
+}
+
+h4 {
+    color: hsl(75, 94%, 57%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: MyFont;
+    font-weight: 600;
+    font-size: small;
+    margin-top: 5px;
+}
+
+h5 {
+    color: hsl(0, 0%, 75%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: MyFont;
+    font-weight: 400;
+}
+
+button {
+    font-family: MyFont;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 6px;
+    margin-bottom: 10px;
+    width: 280px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 13px;
+    border-style: hidden;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+  }
+
+.but {
+    
+    text-align: center;
+}
